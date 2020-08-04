@@ -1,0 +1,239 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <title> Washington Football Team Name</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="theme-color" content="#fafafa">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Washington Football Team Name </h1>
+        <p id="description" class="description text-center">
+          What do the fans think?
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+            />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+            />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+            >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+            />
+        </div>
+        <div class="form-group">
+          <p>Are you a Washington Football Team Fan?</p>
+          <label>
+          <input
+            name="user-recommend"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            checked
+            />Definitely
+          </label>
+          <label>
+          <input
+            name="user-recommend"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+            />Sometimes
+          </label>
+          <label> 
+          <input
+            name="user-recommend"
+            value="not-sure"
+            type="radio"
+            class="input-radio"
+            />Hell No!
+          </label>
+        </div>
+        <div class="form-group">
+          <p>Were you offended by the previous team name?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select below </option>
+            <option value="student">Yes</option>
+            <option value="job">No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>
+            What is your preference for the new permanent team name?
+          </p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="challenges">Washington RedTails</option>
+            <option value="projects">Washington RedWolves</option>
+            <option value="community">Washington RedHawks</option>
+            <option value="openSource">Washington Braves </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>
+            What part(s) of the team needs to be improved the most?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+          <label
+            ><input
+            name="prefer"
+            value="front-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+            />Quarterback</label
+            >
+          <label>
+          <input
+            name="prefer"
+            value="back-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+            />Running Back</label
+            >
+          <label
+            ><input
+            name="prefer"
+            value="data-visualization"
+            type="checkbox"
+            class="input-checkbox"
+            />Fullback</label
+            >
+          <label
+            ><input
+            name="prefer"
+            value="challenges"
+            type="checkbox"
+            class="input-checkbox"
+            />Wide Receivers</label
+            >
+          <label
+            ><input
+            name="prefer"
+            value="open-source-community"
+            type="checkbox"
+            class="input-checkbox"
+            />Tight Ends</label
+            >
+          <label
+            ><input
+            name="prefer"
+            value="gitter-help-rooms"
+            type="checkbox"
+            class="input-checkbox"
+            />Offensive Line</label
+            >
+          <label
+            ><input
+            name="prefer"
+            value="videos"
+            type="checkbox"
+            class="input-checkbox"
+            />Special Teams</label
+            >
+          <label
+            ><input
+            name="prefer"
+            value="city-meetups"
+            type="checkbox"
+            class="input-checkbox"
+            />Linebackers</label
+            >
+          <label
+            ><input
+            name="prefer"
+            value="wiki"
+            type="checkbox"
+            class="input-checkbox"
+            />Safeties</label
+            >
+          <label
+            ><input
+            name="prefer"
+            value="forum"
+            type="checkbox"
+            class="input-checkbox"
+            />Cornerback</label
+            >
+          <label
+            ><input
+            name="prefer"
+            value="additional-courses"
+            type="checkbox"
+            class="input-checkbox"
+            />Defensive Line</label
+            >
+        </div>
+        <div class="form-group">
+          <p>What would you tell Dan Snyder?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+            ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+          Submit
+          </button>
+        </div>
+      </form>
+    </div>
+    <footer class="text-center">
+      <hr>
+      <p>Written and coded by Frankie H.</p>
+    </footer>
+    <!-- Add your site or application content here -->
+    <p></p>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>
